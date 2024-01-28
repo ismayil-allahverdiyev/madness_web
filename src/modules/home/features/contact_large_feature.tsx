@@ -4,7 +4,7 @@ export function ContactLargeView() {
             gonna<br />
             wait for you
         </h6>
-        <button className="text-2xl font-medium bg-primary hover:bg-orange-400 w-1/3 m-8 p-2 rounded-lg">
+        <button className="text-lg font-medium bg-primary hover:bg-orange-400 w-1/3 m-8 p-2 rounded-lg">
             Contact us
         </button>
     </div>;

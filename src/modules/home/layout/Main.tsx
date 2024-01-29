@@ -2,6 +2,7 @@ import HomeManImage from "../../../assets/images/home_man.png"
 import GymDescription from "../features/gym_description_feature"
 import GymDetailsFeature from "../features/gym_details_feature"
 import TotalWorkoutsFeature from "../features/total_workouts_feature"
+import WorkoutContextProvider from "../store/workout-context"
 
 export default function Main() {
     return (
@@ -11,7 +12,10 @@ export default function Main() {
                 <GymDescription />
             </div>
             <GymDetailsFeature />
-            <TotalWorkoutsFeature />
+            <WorkoutContextProvider>
+                <TotalWorkoutsFeature />
+            </WorkoutContextProvider>
+
         </>
     )
 }

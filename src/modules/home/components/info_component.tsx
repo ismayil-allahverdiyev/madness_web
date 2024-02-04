@@ -1,5 +1,18 @@
+import { motion } from "framer-motion";
+
+const fadeInVariations = {
+    initial: {
+        opacity: 0,
+        x: "10vw",
+    },
+    animate: {
+        opacity: 1,
+        x: "0"
+    }
+}
+
 export default function InfoComponent() {
-    return <div className="items-start pl-8 pt-12">
+    return <motion.div initial="initial" whileInView="animate" variants={fadeInVariations} transition={{ duration: 0.5 }} className="items-start pl-8 pt-12 overflow-hidden">
         <div className="text-6xl font-bold">
             <p>
                 We are the MFC
@@ -14,5 +27,5 @@ export default function InfoComponent() {
             we're a lifestyle. Join us, unleash the madness, break boundaries, and become your best self.
             #UnleashTheMadness 💪🔥
         </p>
-    </div>;
+    </motion.div>;
 }

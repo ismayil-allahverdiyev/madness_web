@@ -2,6 +2,7 @@ import { Fragment, useContext } from "react"
 import { WorkoutContext } from "../store/workout-context"
 import WorkoutPlanFeature from "./workout_plan_feature"
 import { motion } from "framer-motion"
+import { GeneralContext } from "../../shared/store/general-context"
 
 const fadeInVariations = {
     initial: {
@@ -16,6 +17,8 @@ const fadeInVariations = {
 
 export default function TotalWorkoutsFeature() {
     const { workoutPlans } = useContext(WorkoutContext);
+    const { animateToTheEnd } = useContext(GeneralContext);
+
     return <motion.div
         initial="initial"
         whileInView="animate"
@@ -30,7 +33,7 @@ export default function TotalWorkoutsFeature() {
             {workoutPlans.map((workoutPlan, index) => <WorkoutPlanFeature key={index} {...workoutPlan} />)}
         </div>
         <p className="text-text-black text-lg font-semibold mx-2 mb-8 text-center">
-            You can <span className="text-orange-500" onClick={() => { }}>contact us</span> for more detailed and personalized workout plan!
+            You can <span className="text-orange-500 cursor-pointer" onClick={() => { animateToTheEnd() }}>contact us</span> for more detailed and personalized workout plan!
         </p>
     </motion.div>
 }

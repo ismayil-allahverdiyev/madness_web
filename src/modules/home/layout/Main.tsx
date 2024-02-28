@@ -8,7 +8,7 @@ export default function Main() {
     return (
         <>
             <div className="flex justify-center py-24">
-                <img src={HomeManImage} alt="" className="w-[30%]" />
+                <img src={HomeManImage} alt="" className="lg:w-[20rem] lg:h-[33rem] xl:w-[30rem] xl:h-[50rem] w-[10rem] h-[20rem]" />
                 <GymDescription />
             </div>
             <GymDetailsFeature />

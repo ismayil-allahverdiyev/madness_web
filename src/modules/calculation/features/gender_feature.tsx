@@ -1,5 +1,3 @@
-import { IoMan } from "react-icons/io5";
-import { IoWoman } from "react-icons/io5";
 import GenderSelector from "../components/gender_selector";
 
 export default function GenderFeature() {

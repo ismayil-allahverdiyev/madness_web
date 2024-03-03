@@ -40,17 +40,17 @@ export default function PostFeature(props: PostFeatureProps) {
         whileInView="animate"
         variants={fadeInVariations}
         transition={{ duration: 1 }}
-        className={`flex ${isLeft ? "" : "flex-row-reverse"} justify-center w-[80%] h-[400px] py-4 text-gray-400 font-medium mx-auto`}
+        className={`flex ${isLeft ? "md:flex-row flex-col-reverse items-center" : "md:flex-row-reverse flex-col-reverse  items-center"} justify-center lg:w-[80%] w-full h-[400px] py-4 text-gray-400 font-medium mx-auto`}
     >
-        <div className="w-[45%]">
-            <p className={`text-lg font-semibold ${!isLeft ? "text-end" : ""}`}>
+        <div className="md:w-[45%] w-[90%]">
+            <p className={`xl:text-xl md:text-lg text-md font-semibold ${!isLeft ? "text-end" : ""}`}>
                 {props.title} - <span className="text-orange-500">{props.category}</span>
             </p>
             <TimeComponent isLeft={isLeft} time={props.time} date={props.date} />
-            <p className={`w-[80%] break-words ${!isLeft ? "text-end ml-auto" : ""}`}>
+            <p className={`w-[80%] break-words xl:text-lg md:text-md text-sm  ${!isLeft ? "text-end ml-auto" : ""}`}>
                 {props.body}
             </p>
         </div>
-        <img src={BlogImageExample} alt="" className={`${!isLeft ? "w-[45%]" : "w-[30%]"}scale-125 rounded-lg object-cover`} />
+        <img src={BlogImageExample} alt="" className={`lg:w-[40%] md:w-[45%] w-[90%] 2xl:h-72 xl:h-64 md:h-56 h-40 rounded-lg object-cover`} />
     </motion.div>
 }

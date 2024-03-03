@@ -9,9 +9,9 @@ export default function CallComponent() {
             <p className="font-bold lg:text-2xl md:text-xl text-lg">
                 Call us
             </p>
-            <p className="lg:text-xl md:text-lg sm:text-base text-sm">
-                +90 535 287 50 39
-            </p>
+            <a href="tel:+905433790329" className="lg:text-xl md:text-lg sm:text-base text-sm">
+                +90 543 379 03 29
+            </a>
         </div>
     </div>;
 }

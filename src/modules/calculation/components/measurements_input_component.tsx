@@ -10,6 +10,6 @@ export default function MeasurementsInputComponent(props: MeasurementsInputCompo
             {props.title}
         </label>
 
-        <input type="number" className="ml-4 p-2 rounded-lg bg-gray-200" onChange={(value) => { props.handleAmountState(value.target.value) }} />
+        <input type="number" className="ml-4 p-2 rounded-lg bg-gray-200 lg:w-auto w-[65%]" onChange={(value) => { props.handleAmountState(value.target.value) }} />
     </div>;
 }

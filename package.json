@@ -42,5 +42,9 @@
   "main": "postcss.config.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": "v20.4.0",
+    "npm": "9.7.2"
+  }
 }

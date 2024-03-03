@@ -11,7 +11,7 @@ export function ContactLargeView() {
             gonna<br />
             wait for you
         </motion.h6>
-        <button className="font-medium bg-primary hover:bg-orange-400  m-8 p-2 rounded-lg sm:text-base lg:text-lg text-xs" onClick={() => { animateToTheEnd() }}>
+        <button className="font-medium bg-primary hover:bg-orange-400  m-8 p-2 rounded-lg sm:text-base lg:text-lg text-xs" onClick={() => { animateToTheEnd!() }}>
             Contact us
         </button>
     </div>;

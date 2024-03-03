@@ -34,7 +34,7 @@ export default function TotalWorkoutsFeature() {
         </div>
 
         <p className="text-text-black lg:text-lg text-md font-semibold mx-2 mb-8 text-center">
-            You can <span className="text-orange-500 cursor-pointer" onClick={() => { animateToTheEnd() }}>contact us</span> for more detailed and personalized workout plan!
+            You can <span className="text-orange-500 cursor-pointer" onClick={() => { animateToTheEnd!() }}>contact us</span> for more detailed and personalized workout plan!
         </p>
     </motion.div>
 }

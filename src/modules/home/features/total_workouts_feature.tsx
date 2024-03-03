@@ -25,7 +25,7 @@ export default function TotalWorkoutsFeature() {
         variants={fadeInVariations}
         transition={{ duration: 1 }}
     >
-        <p className="text-text-black text-2xl font-semibold m-8 ml-16">
+        <p className="text-text-black text-2xl font-semibold m-8 2xl:ml-16 xl:ml-14 lg:ml-12 md:ml-10 sm::ml-8 ml-6">
             Basic workout plan
         </p>
 

@@ -9,7 +9,7 @@ export default function GymDetailsFeature() {
         <div className="text-gray-300 text-center xl:text-9xl lg:text-7xl md:text-5xl sm:text-3xl text-3xl tracking-wide whitespace-pre">
             O u r   s e r v i c e s
         </div>
-        <div className="grid w-[60%] absolute justify-around items-center md:grid-cols-4 md:grid-rows-1 grid-cols-2 grid-rows-2 gap-4 ">
+        <div className="grid sm:w-[60%] absolute justify-around items-center md:grid-cols-4 md:grid-rows-1 grid-cols-2 grid-rows-2 gap-4 ">
             <SmallDetailsComponent {...services.pilates} />
             <SmallDetailsComponent {...services.fitness} />
             <SmallDetailsComponent {...services.dietician} />

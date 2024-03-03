@@ -7,9 +7,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'home-background': "url(./src/assets/images/home_background.webp)",
-        'blog-background': "url(./src/assets/images/blog_background.webp)",
-        'calculation-background': "url(./src/assets/images/calculation_background.webp)",
+        'home-background': "url(./src/assets/images/home_background.svg)",
+        'blog-background': "url(./src/assets/images/blog_background.svg)",
+        'calculation-background': "url(./src/assets/images/calculation_background.svg)",
       },
       colors: {
         'primary': '#FF6B00',

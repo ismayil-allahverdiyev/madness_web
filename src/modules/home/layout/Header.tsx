@@ -5,7 +5,7 @@ import HomeBackground from "../../../assets/images/home_background.webp";
 
 export function Header() {
     return <>
-        <img src={HomeBackground} className={`min-h-screen max-h-screen w-screen relative`} />
+        <img src={HomeBackground} className={`min-h-screen max-h-screen w-screen relative object-cover`} />
         <NavBar />
         <ContactLargeView />
     </>;

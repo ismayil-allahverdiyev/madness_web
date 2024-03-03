@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@react-email/components": "0.0.15",
+    "create-app-react": "^1.0.6",
     "framer-motion": "^11.0.3",
     "leaflet": "^1.9.4",
     "react": "^18.2.0",

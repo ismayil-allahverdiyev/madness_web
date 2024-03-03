@@ -9,13 +9,14 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "email": "email dev --dir src/modules/shared/features/emails",
-    "start": "npm run build"
+    "start": "node ./src/main.tsx"
   },
   "dependencies": {
     "@react-email/components": "0.0.15",
     "create-app-react": "^1.0.6",
     "framer-motion": "^11.0.3",
     "leaflet": "^1.9.4",
+    "nvm": "^0.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-email": "2.1.0",

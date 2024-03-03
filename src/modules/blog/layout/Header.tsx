@@ -1,10 +1,15 @@
 import { NavBar } from "../../shared/features/nav_bar";
+import BlogBackground from "../../../assets/images/blog_background.png";
 
 export default function Header() {
-    return <div className="flex justify-center items-center w-full h-[45vh] bg-blog-background bg-cover bg-center bg-no-repeat relative">
+    return <>
+        <div className="relative">
+            <img src={BlogBackground} className="flex justify-center items-center w-full z-0" />
+            <p className="text-white font-medium text-6xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
+                Our blog
+            </p>
+        </div>
         <NavBar />
-        <p className="text-white font-medium text-6xl">
-            Our blog
-        </p>
-    </div>
+
+    </>
 }

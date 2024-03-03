@@ -6,11 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'home-background': "url('./src/assets/images/home_background.png')",
-        'blog-background': "url('./src/assets/images/blog_background.png')",
-        'calculation-background': "url('./src/assets/images/calculation_background.png')",
-      },
       colors: {
         'primary': '#FF6B00',
         'text-black': "#3D3D3D",

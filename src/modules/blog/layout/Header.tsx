@@ -1,5 +1,5 @@
 import { NavBar } from "../../shared/features/nav_bar";
-import BlogBackground from "../../../assets/images/blog_background.png";
+import BlogBackground from "../../../assets/images/blog_background.webp";
 
 export default function Header() {
     return <>

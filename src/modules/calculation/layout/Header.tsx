@@ -1,5 +1,5 @@
 import { NavBar } from "../../shared/features/nav_bar";
-import CalculationBackground from "../../../assets/images/calculation_background.png";
+import CalculationBackground from "../../../assets/images/calculation_background.webp";
 
 export default function Header() {
     return <>

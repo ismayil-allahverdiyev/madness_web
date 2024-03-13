@@ -25,19 +25,19 @@ export const HomePageContext = createContext<HomePageProps>({} as HomePageProps)
 export default function HomePageContextProvider({ children }: any) {
     var services = {
         pilates: {
-            title: "Pilates (simple, repetitive exercises)",
+            title: "Pilates (basit, tekrarlayan egzersizler)",
             image: Pilates,
         },
         fitness: {
-            title: "Fitness (being physically fit and healthy)",
+            title: "Fitness (güçlü ve sağlıklı olmak)",
             image: Fitness,
         },
         dietician: {
-            title: "Dietician (an expert on diet and nutrition)",
+            title: "Diyetisyen (beslenme uzmanı)",
             image: Dietician,
         },
         fight: {
-            title: "Art of fighting (fighting skills)",
+            title: "Dövüş sanatı (dövüş becerileri)",
             image: Fight,
         },
     };

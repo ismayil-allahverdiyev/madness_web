@@ -13,10 +13,10 @@ export function NavBar() {
         </h1>
         <ul className="flex flex-row">
             <Link className="text-white px-2 font-medium" to={"/"}>
-                Home
+                Anasayfa
             </Link>
             <Link className="text-white px-2 font-medium" to={"/calculation"}>
-                Calculations
+                Hesaplama
             </Link>
             <Link className="text-white px-2 font-medium" to={"/blog"}>
                 Blog
@@ -31,7 +31,7 @@ export function NavBar() {
                             {anouncement.title}
                         </p>
                         <h3 className="text-gray-500">
-                            {anouncement.date.toLocaleDateString()}
+                            {anouncement.date}
                         </h3>
                     </div>
                     <p className="text-gray-800 text-md">

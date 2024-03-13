@@ -52,7 +52,7 @@ export default function WorkoutContextProvider({ children }: any) {
 
     var workoutPlans = [
         {
-            title: "Chest workout movements",
+            title: "Göğüs egzersizi hareketleri",
             bodyImage: ChestDay,
             href: "https://icons8.com/icon/12973/chest",
             movements: [
@@ -81,10 +81,10 @@ export default function WorkoutContextProvider({ children }: any) {
                     href: "https://icons8.com/icon/p1dGDXp6LCpk/gym",
                 },
             ],
-            message: "For major chest gains, you need to choose chest exercises that work all three heads of the pectoralis major and work the chest across midline."
+            message: "Büyük göğüs kazanımları için pektoralis majör kasının üç başını da çalıştıran ve göğsü orta hat boyunca çalıştıran göğüs egzersizlerini seçmeniz gerekir."
         },
         {
-            title: "Back workout movements",
+            title: "Sırt antrenmanı hareketleri",
             bodyImage: BackDay,
             href: "https://icons8.com/icon/12979/bodybuilder",
             movements: [
@@ -113,10 +113,10 @@ export default function WorkoutContextProvider({ children }: any) {
                     href: "",
                 },
             ],
-            message: "Incorporating back exercises to your weekly routine will provide balance, improve posture and prevent injury."
+            message: "Sırt egzersizlerini haftalık rutininize dahil etmek dengeyi sağlayacak, duruşunuzu iyileştirecek ve yaralanmaları önleyecektir."
         },
         {
-            title: "Arm workout movements",
+            title: "Kol egzersiz hareketleri",
             bodyImage: ArmDay,
             href: "https://icons8.com/icon/60488/biceps",
             movements: [
@@ -151,10 +151,10 @@ export default function WorkoutContextProvider({ children }: any) {
                     href: "https://icons8.com/icon/iw32dFwd805y/barbell",
                 },
             ],
-            message: "Biceps have the charisma, when the triceps make the arms look bigger!"
+            message: "Triceps kolları daha büyük gösterirken biceps daha karizmaya durur!"
         },
         {
-            title: "Shoulder workout movements",
+            title: "Omuz egzersiz hareketleri",
             bodyImage: ShoulderDay,
             href: "https://icons8.com/icon/16923/shoulders",
             movements: [
@@ -183,10 +183,10 @@ export default function WorkoutContextProvider({ children }: any) {
                     href: "https://icons8.com/icon/4kW7Yg2Uoq70/workout",
                 },
             ],
-            message: "Most newcomers tent to injure their shoulders the most. So be careful!"
+            message: "Yeni gelenlerin çoğu en çok omuzlarını yaralar. Yani dikkatli ol!"
         },
         {
-            title: "Leg workout movements",
+            title: "Bacak egzersiz hareketleri",
             bodyImage: LegDay,
             href: "https://icons8.com/icon/16900/leg",
             movements: [
@@ -215,7 +215,7 @@ export default function WorkoutContextProvider({ children }: any) {
                     href: "https://icons8.com/icon/hGdi4KxxFCOU/leg-press",
                 }
             ],
-            message: "Never skip a leg day!"
+            message: "Asla bir bacak gününü atlamayın!"
         },
     ]
 

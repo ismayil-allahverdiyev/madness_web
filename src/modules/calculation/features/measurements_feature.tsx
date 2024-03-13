@@ -7,12 +7,12 @@ export default function MeasurementsFeature() {
 
     return <>
         <p className="my-4 text-xl font-semibold">
-            Fill in the fields
+            Alanları doldurun
         </p>
         <div className="lg:grid lg:grid-cols-2 justify-center space-y-2 2xl:w-[40%] xl:[50%] lg:w-[60%] md:w-[70%] sm:w-[80%] w-[85%]">
-            <MeasurementsInputComponent title="Weight in kg" amount={weight} handleAmountState={handleWeightState} />
-            <MeasurementsInputComponent title="Height in sm" amount={height} handleAmountState={handleHeightState} />
-            <MeasurementsInputComponent title="Your age" amount={age} handleAmountState={handleAgeState} />
+            <MeasurementsInputComponent title="Kilo - kg" amount={weight} handleAmountState={handleWeightState} />
+            <MeasurementsInputComponent title="Boy - sm" amount={height} handleAmountState={handleHeightState} />
+            <MeasurementsInputComponent title="Yaşınız" amount={age} handleAmountState={handleAgeState} />
         </div>
     </>
 }

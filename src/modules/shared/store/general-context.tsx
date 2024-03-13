@@ -22,7 +22,7 @@ export interface GeneralContextProviderProps {
 export interface Anouncement {
     title: string;
     message: string;
-    date: Date;
+    date: string;
 }
 
 export default function GeneralContextProvider(props: GeneralContextProviderProps) {
@@ -35,19 +35,19 @@ export default function GeneralContextProvider(props: GeneralContextProviderProp
 
     const anouncements = [
         {
-            title: "New feature",
-            message: "We have added a new feature to our website, check it out!",
-            date: new Date(2021, 10, 10),
+            title: "Ramazan ayı",
+            message: "Ramazan boyunca saat 00:00'da kapatacağız!",
+            date: "2024-03-11",
         },
         {
-            title: "New feature",
-            message: "We have added a new feature to our website, check it out!",
-            date: new Date(2021, 10, 10),
+            title: "İndirim",
+            message: "Sabah aboneliklerinde ve kadınlara yönelik indirimler!",
+            date: "2024-01-12",
         },
         {
-            title: "New feature",
-            message: "We have added a new feature to our website, check it out!",
-            date: new Date(2021, 10, 10),
+            title: "Diyetisyen",
+            message: "Diyetisyen günümüz her cumartesi 17:00 - 20:00 arasıdır.",
+            date: "2023-11-21",
         },
     ] as Anouncement[];
 

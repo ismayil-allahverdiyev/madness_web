@@ -26,7 +26,7 @@ export default function TotalWorkoutsFeature() {
         transition={{ duration: 1 }}
     >
         <p className="text-text-black text-2xl font-semibold m-8 2xl:ml-16 xl:ml-14 lg:ml-12 md:ml-10 sm::ml-8 ml-6">
-            Basic workout plan
+            Temel egzersiz planı
         </p>
 
         <div className="flex overflow-x-auto w-full no-scrollbar mb-4">
@@ -34,7 +34,7 @@ export default function TotalWorkoutsFeature() {
         </div>
 
         <p className="text-text-black lg:text-lg text-md font-semibold mx-2 mb-8 text-center">
-            You can <span className="text-orange-500 cursor-pointer" onClick={() => { animateToTheEnd!() }}>contact us</span> for more detailed and personalized workout plan!
+            Daha detaylı ve kişiye özel antrenman planı için bizimle <span className="text-orange-500 cursor-pointer" onClick={() => { animateToTheEnd!() }}>iletişime</span> geçebilirsiniz!
         </p>
     </motion.div>
 }

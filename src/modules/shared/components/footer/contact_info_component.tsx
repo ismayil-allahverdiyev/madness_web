@@ -5,7 +5,7 @@ import WhiteMadness from "../../../../assets/images/white-madness.svg";
 export default function ContactInfoComponent() {
     return <div className="flex flex-col w-[45%] text-white pb-2 xl:text-2xl lg:text-xl text-lg">
         <img src={WhiteMadness} alt="" className="absolute md:bottom-0 md:right-0 right-8 md:w-[40%] w-[30%]" />
-        Social media
+        Sosyal medya
         <div className="flex pt-2">
             <a href="https://www.instagram.com/madnessfitnessclub/">
                 <img src={InstagramIcon} alt="" />
@@ -14,7 +14,7 @@ export default function ContactInfoComponent() {
                 <img src={WhatsappIcon} alt="" className="ml-2" />
             </a>
         </div>
-        Contact number
+        İletişim numarası
         <a href="tel:+905433790329">
             0543 379 03 29
         </a>

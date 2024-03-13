@@ -40,10 +40,10 @@ export default function PostFeature(props: PostFeatureProps) {
         whileInView="animate"
         variants={fadeInVariations}
         transition={{ duration: 1 }}
-        className={`flex ${isLeft ? "md:flex-row flex-col-reverse items-center" : "md:flex-row-reverse flex-col-reverse  items-center"} justify-center lg:w-[80%] w-full h-[400px] py-4 text-gray-400 font-medium mx-auto`}
+        className={`flex ${isLeft ? "md:flex-row flex-col-reverse items-center" : "md:flex-row-reverse flex-col-reverse  items-center"} justify-center lg:w-[80%] w-full  py-4 text-gray-400 font-medium mx-auto`}
     >
         <div className="md:w-[45%] w-[90%]">
-            <p className={`xl:text-xl md:text-lg text-md font-semibold ${!isLeft ? "text-end" : ""}`}>
+            <p className={`xl:text-xl md:text-lg text-md font-semibold lg:w-full w-[80%] ${!isLeft ? "text-end ml-auto" : ""}`}>
                 {props.title} - <span className="text-orange-500">{props.category}</span>
             </p>
             <TimeComponent isLeft={isLeft} time={props.time} date={props.date} />
@@ -51,6 +51,6 @@ export default function PostFeature(props: PostFeatureProps) {
                 {props.body}
             </p>
         </div>
-        <img src={BlogImageExample} alt="" className={`lg:w-[40%] md:w-[45%] w-[90%] 2xl:h-72 xl:h-64 md:h-56 h-40 rounded-lg object-cover`} />
+        <img src={props.image} alt="" className={`lg:w-[40%] md:w-[45%] w-[90%] 2xl:h-72 xl:h-64 md:h-56 h-40 rounded-lg object-cover`} />
     </motion.div>
 }

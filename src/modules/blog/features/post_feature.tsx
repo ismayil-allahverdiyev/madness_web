@@ -1,4 +1,3 @@
-import BlogImageExample from "../../../assets/images/blog_example_image.svg"
 import TimeComponent from "../components/time_component";
 import { motion } from "framer-motion";
 

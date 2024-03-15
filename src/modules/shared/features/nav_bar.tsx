@@ -8,7 +8,7 @@ export function NavBar() {
 
     const { isAnouncementsOpen, openCloseAnouncements, anouncements } = useContext(GeneralContext);
 
-    return <div className="w-full flex flex-row justify-between items-center px-8 py-4 absolute top-0 z-10">
+    return <div className="w-full flex flex-row justify-between items-center md:px-8 px-2 py-4 absolute top-0 z-10">
         <img src={Logo} alt="" className="md:w-32 w-16" />
         <ul className="flex flex-row">
             <Link className="text-white px-2 font-medium" to={"/"}>

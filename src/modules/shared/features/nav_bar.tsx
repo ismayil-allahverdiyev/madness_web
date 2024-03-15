@@ -2,15 +2,14 @@ import { useContext } from "react";
 import { FaBell } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { GeneralContext } from "../store/general-context";
+import Logo from "../../../assets/images/mfc.png";
 
 export function NavBar() {
 
     const { isAnouncementsOpen, openCloseAnouncements, anouncements } = useContext(GeneralContext);
 
     return <div className="w-full flex flex-row justify-between items-center px-8 py-4 absolute top-0 z-10">
-        <h1 className="text-white z-10 font-medium text-2xl">
-            MFC
-        </h1>
+        <img src={Logo} alt="" className="w-32" />
         <ul className="flex flex-row">
             <Link className="text-white px-2 font-medium" to={"/"}>
                 Anasayfa

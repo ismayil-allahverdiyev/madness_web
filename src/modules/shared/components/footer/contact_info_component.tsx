@@ -15,8 +15,8 @@ export default function ContactInfoComponent() {
             </a>
         </div>
         İletişim numarası
-        <a href="tel:+905433790329">
-            0543 379 03 29
+        <a href="tel:+905384242648">
+            0538 424 26 48
         </a>
     </div>
 }

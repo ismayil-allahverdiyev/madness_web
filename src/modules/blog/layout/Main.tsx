@@ -4,7 +4,7 @@ import { BlogContext } from "../store/blog-context";
 
 export default function Main() {
     var { posts } = useContext(BlogContext);
-    return <div className="pt-4">
+    return <div className="pt-4 overflow-x-hidden">
         {posts.map((post, index) => <PostFeature index={index} {...post} />)}
     </div>
 }

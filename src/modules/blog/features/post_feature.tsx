@@ -39,7 +39,7 @@ export default function PostFeature(props: PostFeatureProps) {
         whileInView="animate"
         variants={fadeInVariations}
         transition={{ duration: 1 }}
-        className={`flex ${isLeft ? "md:flex-row flex-col-reverse items-center" : "md:flex-row-reverse flex-col-reverse  items-center"} justify-center lg:w-[80%] w-full  py-4 text-gray-400 font-medium mx-auto`}
+        className={`flex ${isLeft ? "md:flex-row flex-col-reverse items-center" : "md:flex-row-reverse flex-col-reverse  items-center"} justify-center lg:w-[80%] w-full  py-4 text-gray-400 font-medium mx-auto overflow-x-hidden`}
     >
         <div className="md:w-[45%] w-[90%]">
             <p className={`xl:text-xl md:text-lg text-md font-semibold lg:w-full w-[80%] ${!isLeft ? "text-end ml-auto" : ""}`}>

@@ -10,7 +10,7 @@ export default function ContactInfoComponent() {
             <a href="https://www.instagram.com/madnessfitnessclub/">
                 <img src={InstagramIcon} alt="" />
             </a>
-            <a href="https://wa.me/+905433790329?text=Spor%20salonunuz%20hakkında%20bilgi%20almak%20istiyorum!">
+            <a href="https://wa.me/+905384242648?text=Spor%20salonunuz%20hakkında%20bilgi%20almak%20istiyorum!">
                 <img src={WhatsappIcon} alt="" className="ml-2" />
             </a>
         </div>
